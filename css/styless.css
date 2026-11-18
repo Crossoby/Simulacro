@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Fraunces', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+    /* Fondos */
+    --Alabastro-Cálido: rgb(248, 245, 240);
+    --Arena-Travertino: rgb(239, 233, 224);
+    --Blanco-Puro: rgb(255, 255, 255);
+    --Espresso-Arquitectónico: rgb(34, 30, 28);
+    --Carbón-Cálido: rgb(48, 43, 40);
+
+    /* Botones y acentos */
+    --Terracota-Principal: rgb(184, 92, 56);
+    --Arcilla-Profunda: rgb(142, 64, 36);
+
+    /* Textos */
+    --Espresso-Oscuro: rgb(34, 30, 28);
+    --Nogal-Oscuro: rgb(58, 49, 44);
+    --Taupe-Medio: rgb(92, 83, 76);
+    --Piedra-Grisácea: rgb(105, 95, 87);
+    --Lino-Claro: rgb(235, 228, 218);
+    --Arena-Suave: rgb(194, 184, 172);
+
+    /* Bordes */
+    --Borde-Piedra: rgb(228, 220, 209);
+    --Borde-Marfil: rgb(233, 226, 216);
+
+    /* Iconos y badges */
+    --Rosa-Arcilla: rgb(247, 232, 225);
+    --Crema-Ámbar: rgb(250, 240, 222);
+    --Ocre-Dorado: rgb(196, 134, 52);
+    --Verde-Niebla: rgb(232, 240, 230);
+    --Verde-Salvia: rgb(90, 114, 85);
+    --Arena-Rosada: rgb(243, 233, 228);
+    --Cobre-Tierra: rgb(142, 74, 49);
+
+    /* Puntos de paginación inactivos */
+    --Gris-Cálido: rgb(216, 206, 194);
+
+    --Espacio-XS: 0.25rem;  /* 4px */
+    --Espacio-S: 0.5rem;    /* 8px */
+    --Espacio-SM: 0.75rem;  /* 12px */
+    --Espacio-M: 1rem;      /* 16px */
+    --Espacio-L: 1.5rem;    /* 24px */
+    --Espacio-XL: 2rem;     /* 32px */
+    --Espacio-XXL: 3rem;    /* 48px */
+    --Espacio-XXXL: 4rem;   /* 64px */
+}
+
+body {
+    background-color: var(--Alabastro-Cálido);
+}
+
+header{
+    border-bottom: 2px solid var(--Rosa-Arcilla);
+
+}
+
+.vista-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: var(--Espacio-S);
+    
+}
+
+.elementos {
+    display: flex;
+    align-items: center;
+    gap: var(--Espacio-S);
+    font-family: 'Fraunces';
+}
+
+.elementos img {
+    background-color: var(--Terracota-Principal);
+    padding: var(--Espacio-SM);
+    border-radius: var(--Espacio-S);
+}
+
+#btn-nav {
+    justify-content: end;
+    align-items: center;
+    padding: var(--Espacio-S);
+
+}
+
+#btn-nav a {
+    display: flex;
+    align-items: center;
+    gap: var(--Espacio-S);
+    padding: var(--Espacio-S);
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--Taupe-Medio);
+    font-family: 'Plus Jakarta Sans';
+}
+
+#btn-nav img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+}   
+
+#btn-nav a {
+    text-decoration: none;
+    padding-bottom: var(--Espacio-SM);
+    border-bottom: 2px solid transparent;
+}
+
+#btn-nav a:hover {
+    text-decoration: none;
+    border-bottom-color: var(--Arcilla-Profunda);
+    color: var(--Arcilla-Profunda);
+}
+
+
+
+
+
+
