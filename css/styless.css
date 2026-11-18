@@ -99,7 +99,8 @@ header{
     background-color: transparent;
     text-decoration: none;
     color: var(--Taupe-Medio);
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'Fraunces';
+    font-weight: 700;
 }
 
 #btn-nav img {
@@ -123,6 +124,11 @@ header{
     border-bottom-color: var(--Arcilla-Profunda);
     color: var(--Arcilla-Profunda);
 }
+
+#btn-nav a:hover img {
+    filter: brightness(0);
+}
+
 
 
 
